@@ -364,6 +364,7 @@ header {
     left: -0.1rem;
     right: -0.1rem;
     z-index: 1;
+    transition:  var(--transition-cubic-bezier) var(--transition-duration);
 }
 
 .card-work:hover .card-inner {
@@ -418,5 +419,4 @@ header {
 
 .card-work:hover .card-outer {
     transform: scale(0.95);
-    transition:  var(--transition-cubic-bezier) var(--transition-duration);
 }

@@ -276,3 +276,19 @@ ul.row {
     background-color: var(--color-primary);
     text-decoration: none;
 }
+
+.card-testimonial {
+    text-align: center;
+}
+
+.card-testimonial .card-avatar {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+}
+
+.card-testimonial .card-quote cite {
+    display: block;
+    top: 1rem;
+    color: var(--color-primary);
+}

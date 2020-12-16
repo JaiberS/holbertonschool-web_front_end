@@ -368,7 +368,7 @@ header {
 .card-work .card-title {
     text-align: center;
     margin: 0;
-    opacity: 0.01;
+    opacity: 0;
     height: 100%;
     position: relative;
 }
@@ -379,16 +379,7 @@ header {
     padding-top: 45%;
 }
 
-.card-title a::after {
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    content: "";
-}
-
-.card-work a::after {
+.card-work .card-title a::after {
     position: absolute;
     top: 0;
     right: 0;

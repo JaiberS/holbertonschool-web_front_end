@@ -1,0 +1,14 @@
+/* 2. Colors */
+$color-black: #3D3D3D;
+$background-color-gray:#6D6D6D;
+
+body {
+    color: $color-black;
+    background-color: $background-color-gray;
+}
+p {
+    color: $color-black;
+}
+h2 {
+    background-color: $background-color-gray;
+}

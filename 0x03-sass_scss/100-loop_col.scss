@@ -1,0 +1,6 @@
+/* 13. Columns and operators  */
+@for $heading from 1 to 5 {
+    col-#{$heading} {
+        width: 100% /#{$heading}; 
+    }
+}
